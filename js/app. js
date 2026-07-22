@@ -54,3 +54,10 @@ document.getElementById("speakBtn").onclick = () => {
     speechSynthesis.speak(msg);
 
 };
+document.getElementById("randomBtn").onclick = () => {
+
+    current = Math.floor(Math.random() * words.length);
+
+    showWord();
+
+};
