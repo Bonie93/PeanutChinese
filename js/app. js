@@ -1,63 +1,56 @@
-let words = [];
+let words = window.HSK1;
 let current = 0;
 
-fetch("data/hsk1.json")
-.then(res => res.json())
-.then(data => {
+function showWord() {
 
-words = data;
+    document.getElementById("hanzi").textContent = words[current].hanzi;
 
-showWord();
+    document.getElementById("pinyin").textContent = words[current].pinyin;
 
-});
+    document.getElementById("meaning").textContent = words[current].meaning;
 
-function showWord(){
-
-document.getElementById("hanzi").textContent = words[current].hanzi;
-
-document.getElementById("pinyin").textContent = words[current].pinyin;
-
-document.getElementById("meaning").textContent = words[current].meaning;
-
-document.getElementById("counter").textContent =
-`${current+1}/${words.length}`;
-
-}
-
-document.getElementById("nextBtn").onclick=()=>{
-
-current++;
-
-if(current>=words.length){
-
-current=0;
-
+    document.getElementById("counter").textContent =
+        `${current + 1}/${words.length}`;
 }
 
 showWord();
+
+document.getElementById("nextBtn").onclick = () => {
+
+    current++;
+
+    if (current >= words.length) {
+
+        current = 0;
+
+    }
+
+    showWord();
 
 };
 
-document.getElementById("prevBtn").onclick=()=>{
+document.getElementById("prevBtn").onclick = () => {
 
-current--;
+    current--;
 
-if(current<0){
+    if (current < 0) {
 
-current=words.length-1;
+        current = words.length - 1;
 
-}
+    }
 
-showWord();
+    showWord();
 
 };
 
-document.getElementById("speakBtn").onclick=()=>{
+document.getElementById("speakBtn").onclick = () => {
 
-const msg = new SpeechSynthesisUtterance(words[current].hanzi);
+    speechSynthesis.cancel();
 
-msg.lang="zh-CN";
+    const msg = new SpeechSynthesisUtterance(words[current].hanzi);
 
-speechSynthesis.speak(msg);
+    msg.lang = "zh-CN";
+
+    speechSynthesis.speak(msg);
 
 };
