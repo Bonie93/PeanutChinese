@@ -25,3 +25,4 @@ const HSK1 = [
     meaning: "Tôi"
   }
 ];
+window.HSK1 = HSK1;
