@@ -1,1 +1,63 @@
-console.log("Peanut Chinese");
+let words = [];
+let current = 0;
+
+fetch("data/hsk1.json")
+.then(res => res.json())
+.then(data => {
+
+words = data;
+
+showWord();
+
+});
+
+function showWord(){
+
+document.getElementById("hanzi").textContent = words[current].hanzi;
+
+document.getElementById("pinyin").textContent = words[current].pinyin;
+
+document.getElementById("meaning").textContent = words[current].meaning;
+
+document.getElementById("counter").textContent =
+`${current+1}/${words.length}`;
+
+}
+
+document.getElementById("nextBtn").onclick=()=>{
+
+current++;
+
+if(current>=words.length){
+
+current=0;
+
+}
+
+showWord();
+
+};
+
+document.getElementById("prevBtn").onclick=()=>{
+
+current--;
+
+if(current<0){
+
+current=words.length-1;
+
+}
+
+showWord();
+
+};
+
+document.getElementById("speakBtn").onclick=()=>{
+
+const msg = new SpeechSynthesisUtterance(words[current].hanzi);
+
+msg.lang="zh-CN";
+
+speechSynthesis.speak(msg);
+
+};
