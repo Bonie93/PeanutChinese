@@ -1,28 +1,34 @@
 const HSK1 = [
-  {
-    hanzi: "你好",
-    pinyin: "nǐ hǎo",
-    meaning: "Xin chào"
-  },
-  {
-    hanzi: "谢谢",
-    pinyin: "xiè xie",
-    meaning: "Cảm ơn"
-  },
-  {
-    hanzi: "再见",
-    pinyin: "zài jiàn",
-    meaning: "Tạm biệt"
-  },
-  {
-    hanzi: "是",
-    pinyin: "shì",
-    meaning: "Là"
-  },
-  {
-    hanzi: "我",
-    pinyin: "wǒ",
-    meaning: "Tôi"
-  }
+  { hanzi: "你好", pinyin: "nǐ hǎo", meaning: "Xin chào" },
+  { hanzi: "谢谢", pinyin: "xiè xie", meaning: "Cảm ơn" },
+  { hanzi: "再见", pinyin: "zài jiàn", meaning: "Tạm biệt" },
+  { hanzi: "是", pinyin: "shì", meaning: "Là" },
+  { hanzi: "我", pinyin: "wǒ", meaning: "Tôi" },
+  { hanzi: "你", pinyin: "nǐ", meaning: "Bạn" },
+  { hanzi: "他", pinyin: "tā", meaning: "Anh ấy" },
+  { hanzi: "她", pinyin: "tā", meaning: "Cô ấy" },
+  { hanzi: "它", pinyin: "tā", meaning: "Nó" },
+  { hanzi: "我们", pinyin: "wǒ men", meaning: "Chúng tôi" },
+  { hanzi: "你们", pinyin: "nǐ men", meaning: "Các bạn" },
+  { hanzi: "他们", pinyin: "tā men", meaning: "Họ" },
+  { hanzi: "这", pinyin: "zhè", meaning: "Đây, này" },
+  { hanzi: "那", pinyin: "nà", meaning: "Kia, đó" },
+  { hanzi: "哪", pinyin: "nǎ", meaning: "Nào, đâu" },
+  { hanzi: "谁", pinyin: "shéi", meaning: "Ai" },
+  { hanzi: "什么", pinyin: "shén me", meaning: "Cái gì" },
+  { hanzi: "怎么", pinyin: "zěn me", meaning: "Thế nào" },
+  { hanzi: "为什么", pinyin: "wèi shén me", meaning: "Tại sao" },
+  { hanzi: "几", pinyin: "jǐ", meaning: "Mấy" },
+  { hanzi: "多少", pinyin: "duō shǎo", meaning: "Bao nhiêu" },
+  { hanzi: "有", pinyin: "yǒu", meaning: "Có" },
+  { hanzi: "没有", pinyin: "méi yǒu", meaning: "Không có" },
+  { hanzi: "在", pinyin: "zài", meaning: "Ở, tại" },
+  { hanzi: "不", pinyin: "bù", meaning: "Không" },
+  { hanzi: "很", pinyin: "hěn", meaning: "Rất" },
+  { hanzi: "也", pinyin: "yě", meaning: "Cũng" },
+  { hanzi: "都", pinyin: "dōu", meaning: "Đều" },
+  { hanzi: "和", pinyin: "hé", meaning: "Và" },
+  { hanzi: "的", pinyin: "de", meaning: "Trợ từ sở hữu" }
 ];
+
 window.HSK1 = HSK1;
