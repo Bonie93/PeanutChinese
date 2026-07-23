@@ -29,7 +29,7 @@ const HSK1 = [
   { hanzi: "都", pinyin: "dōu", meaning: "Đều" },
   { hanzi: "和", pinyin: "hé", meaning: "Và" },
   { hanzi: "的", pinyin: "de", meaning: "Trợ từ sở hữu" }
-];
+
 
 window.HSK1 = HSK1;
   { hanzi: "吗", pinyin: "ma", meaning: "Trợ từ nghi vấn" },
@@ -62,3 +62,23 @@ window.HSK1 = HSK1;
   { hanzi: "明天", pinyin: "míng tiān", meaning: "Ngày mai" },
   { hanzi: "昨天", pinyin: "zuó tiān", meaning: "Hôm qua" },
   { hanzi: "现在", pinyin: "xiàn zài", meaning: "Bây giờ" },
+  { hanzi: "时候", pinyin: "shí hou", meaning: "Lúc, thời điểm" },
+  { hanzi: "点", pinyin: "diǎn", meaning: "Giờ; chấm; điểm" },
+  { hanzi: "分钟", pinyin: "fēn zhōng", meaning: "Phút" },
+  { hanzi: "小时", pinyin: "xiǎo shí", meaning: "Giờ (đơn vị thời gian)" },
+  { hanzi: "年", pinyin: "nián", meaning: "Năm" },
+  { hanzi: "月", pinyin: "yuè", meaning: "Tháng; mặt trăng" },
+  { hanzi: "日", pinyin: "rì", meaning: "Ngày; mặt trời" },
+  { hanzi: "号", pinyin: "hào", meaning: "Ngày (trong tháng); số" },
+  { hanzi: "星期", pinyin: "xīng qī", meaning: "Tuần" },
+  { hanzi: "星期一", pinyin: "xīng qī yī", meaning: "Thứ Hai" },
+  { hanzi: "星期二", pinyin: "xīng qī èr", meaning: "Thứ Ba" },
+  { hanzi: "星期三", pinyin: "xīng qī sān", meaning: "Thứ Tư" },
+  { hanzi: "星期四", pinyin: "xīng qī sì", meaning: "Thứ Năm" },
+  { hanzi: "星期五", pinyin: "xīng qī wǔ", meaning: "Thứ Sáu" },
+  { hanzi: "星期六", pinyin: "xīng qī liù", meaning: "Thứ Bảy" },
+  { hanzi: "星期天", pinyin: "xīng qī tiān", meaning: "Chủ Nhật" },
+  { hanzi: "今天上午", pinyin: "jīn tiān shàng wǔ", meaning: "Sáng nay" },
+  { hanzi: "今天下午", pinyin: "jīn tiān xià wǔ", meaning: "Chiều nay" },
+  { hanzi: "今天晚上", pinyin: "jīn tiān wǎn shang", meaning: "Tối nay" },
+  { hanzi: "早上", pinyin: "zǎo shang", meaning: "Buổi sáng" }
