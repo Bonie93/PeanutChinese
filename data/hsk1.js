@@ -29,9 +29,6 @@ const HSK1 = [
   { hanzi: "都", pinyin: "dōu", meaning: "Đều" },
   { hanzi: "和", pinyin: "hé", meaning: "Và" },
   { hanzi: "的", pinyin: "de", meaning: "Trợ từ sở hữu" }
-
-
-window.HSK1 = HSK1;
   { hanzi: "吗", pinyin: "ma", meaning: "Trợ từ nghi vấn" },
   { hanzi: "呢", pinyin: "ne", meaning: "Thì sao, còn..." },
   { hanzi: "吧", pinyin: "ba", meaning: "Nhé, nhé nào" },
@@ -182,3 +179,6 @@ window.HSK1 = HSK1;
   { hanzi: "飞机", pinyin: "fēi jī", meaning: "Máy bay" },
   { hanzi: "非常", pinyin: "fēi cháng", meaning: "Rất; vô cùng" },
   { hanzi: "分", pinyin: "fēn", meaning: "Phút; chia" }
+];
+
+window.HSK1 = HSK1;
