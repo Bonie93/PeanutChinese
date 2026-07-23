@@ -178,7 +178,7 @@ const HSK1 = [
   { hanzi: "飞", pinyin: "fēi", meaning: "Bay" },
   { hanzi: "飞机", pinyin: "fēi jī", meaning: "Máy bay" },
   { hanzi: "非常", pinyin: "fēi cháng", meaning: "Rất; vô cùng" },
-  { hanzi: "分", pinyin: "fēn", meaning: "Phút; chia" },
+  { hanzi: "分", pinyin: "fēn", meaning: "Phút; chia" }
 ];
 
 window.HSK1 = HSK1;
